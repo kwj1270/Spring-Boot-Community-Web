@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f4d6c05-68d8-4fa8-8073-a4754463c27c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1dvx5wUFRz775eNCMZ7m98x8Ar4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.SpringBootCommunityWebApplication (1)">
+    <configuration name="SpringBootCommunityWebApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.web.SpringBootCommunityWebApplication" />
+      <module name="Spring-Boot-Community-Web.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootCommunityWebApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.web.SpringBootCommunityWebApplication" />
+      <module name="Spring-Boot-Community-Web" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpaMaapingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.web.JpaMaapingTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="JpaMaapingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-Boot-Community-Web.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.web" />
+      <option name="MAIN_CLASS_NAME" value="com.web.JpaMaapingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpaMaapingTest.제대로_생성됐는지_테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-Boot-Community-Web.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.web" />
+      <option name="MAIN_CLASS_NAME" value="com.web.JpaMaapingTest" />
+      <option name="METHOD_NAME" value="제대로_생성됐는지_테스트" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpaMappingTest.제대로_생성_됐는지_테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-Boot-Community-Web.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.web" />
+      <option name="MAIN_CLASS_NAME" value="com.web.JpaMappingTest" />
+      <option name="METHOD_NAME" value="제대로_생성_됐는지_테스트" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JarApplication">
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="Spring-Boot-Community-Web" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.SpringBootCommunityWebApplication" />
+      <item itemvalue="Application.SpringBootCommunityWebApplication (1)" />
+      <item itemvalue="Gradle.JpaMaapingTest" />
+      <item itemvalue="JUnit.JpaMaapingTest" />
+      <item itemvalue="JUnit.JpaMaapingTest.제대로_생성됐는지_테스트" />
+      <item itemvalue="JUnit.JpaMappingTest.제대로_생성_됐는지_테스트" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringBootCommunityWebApplication (1)" />
+        <item itemvalue="JUnit.JpaMappingTest.제대로_생성_됐는지_테스트" />
+        <item itemvalue="JUnit.JpaMaapingTest" />
+        <item itemvalue="JUnit.JpaMaapingTest.제대로_생성됐는지_테스트" />
+        <item itemvalue="Gradle.JpaMaapingTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f4d6c05-68d8-4fa8-8073-a4754463c27c" name="Default Changelist" comment="" />
+      <created>1593319188114</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593319188114</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="98" key="#Plugins" timestamp="1593660240757">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="98" key="#Plugins/0.0.1440.900@0.0.1440.900" timestamp="1593660240757" />
+    <state x="208" y="31" key="#Project_Structure" timestamp="1593661686451">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="31" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1593661686451" />
+    <state x="370" y="140" key="#SpringBootCommunityWebApplication" timestamp="1593660421429">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="370" y="140" key="#SpringBootCommunityWebApplication/0.0.1440.900@0.0.1440.900" timestamp="1593660421429" />
+    <state x="370" y="139" key="#Unnamed" timestamp="1593661682109">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="370" y="139" key="#Unnamed/0.0.1440.900@0.0.1440.900" timestamp="1593661682109" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593661823236">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1593661823236" />
+    <state x="507" y="162" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1593661750684">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="507" y="162" key="#com.intellij.ide.macro.MacrosDialog/0.0.1440.900@0.0.1440.900" timestamp="1593661750684" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1594209656698">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1594209656698" />
+    <state x="457" y="247" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593661680387">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="457" y="247" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1593661680387" />
+    <state x="524" y="354" key="Github.ShareDialog" timestamp="1594459892589">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="524" y="354" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1594459892589" />
+    <state x="302" y="162" key="Github.UntrackedFilesDialog" timestamp="1594459902247">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="302" y="162" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1594459902247" />
+    <state x="220" y="63" key="SettingsEditor" timestamp="1593661637915">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="220" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1593661637915" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1594459878188">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1594459878188" />
+  </component>
+</project>
