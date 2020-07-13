@@ -16,7 +16,7 @@ public class BoardController {
 
     @Autowired
     BoardService boardService;
-
+/*
     @GetMapping({"","/"})
     public String board(@RequestParam(value="idx", defaultValue = "0") Long idx, Model model){
         model.addAttribute("board", boardService.findBoardByIdx(idx));
@@ -28,4 +28,5 @@ public class BoardController {
         model.addAttribute("boardList", boardService.findBoardList(pageable));
         return "/board/list";
     }
+ */
 }

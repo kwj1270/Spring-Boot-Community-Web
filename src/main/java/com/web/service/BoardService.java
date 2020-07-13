@@ -15,9 +15,9 @@ public class BoardService {
         this.boardRepository = boardRepository;
     } // @RequiredArgsConstructor 로 생성해도 된다.
 
+/*
     // Spring boot 를 1.5 버전으로 내리면 of 메소드가 사라진다.
     public Page<Board> findBoardList(Pageable pageable){
-        PageRequest pageRequest = new PageRequest(pageable);
         pageable = PageRequest.of(pageable.getPageNumber() <= 0 ? 0 : pageable.getPageNumber()-1,
                 pageable.getPageSize());
         return boardRepository.findAll(pageable);
@@ -27,6 +27,8 @@ public class BoardService {
         return boardRepository.findById(idx).orElse(new Board());
     }
 
+// 		springBootVersion = '1.5.14.RELEASE'
+*/
 }
 
 
