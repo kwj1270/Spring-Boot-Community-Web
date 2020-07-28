@@ -26,7 +26,7 @@ public class SpringBootCommunityWebApplication extends WebMvcConfigurerAdapter {
 	}
 
 	@Autowired
-	UserArgumentResolver userArgumentResolver;
+	private UserArgumentResolver userArgumentResolver;
 
 	@Override
 	public void addArgumentResolvers(List<HandlerMethodArgumentResolver> argumentResolvers){
@@ -36,7 +36,7 @@ public class SpringBootCommunityWebApplication extends WebMvcConfigurerAdapter {
 	@Bean
 	public CommandLineRunner runner(UserRepository userRepository, BoardRepository boardRepository)
 	throws Exception{
-		return (args -> {
+		return (args) -> {
 			User user = userRepository.save(User.builder()
 					.name("havi")
 					.password("test")
@@ -57,6 +57,6 @@ public class SpringBootCommunityWebApplication extends WebMvcConfigurerAdapter {
 						.build());
 			});
 
-		});
+		};
 	}
 }

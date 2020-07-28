@@ -1,3 +1,8 @@
+h2:
+  console:
+    enabled: true
+    path: /console
+
 facebook:
   client:
     clientId: 564162601158748
@@ -9,12 +14,12 @@ facebook:
     clientAuthenticationScheme: form
     scope: email
   resource:
-    userInfoUri: https://graph.facebook.com/me?fileds=id,name,email,link
+    userInfoUri: https://graph.facebook.com/me?fields=id,name,email,link
 
-google :
-  client :
-    clientId : 531083614299-40lvfkln6kmihd62igmag5551ook21bo.apps.googleusercontent.com
-    clientSecret: Q0sFH7FeoZKfbx910iTIpNmm
+google:
+  client:
+    clientId: 1093010447426-6uh6vdc6ss3nnjmhdhhrhcjf1gp5foe9.apps.googleusercontent.com
+    clientSecret: NfQxg8vapYITHgtdCjsdjrY1
     accessTokenUri: https://accounts.google.com/o/oauth2/token
     userAuthorizationUri: https://accounts.google.com/o/oauth2/auth
     scope: email, profile
@@ -26,5 +31,5 @@ kakao:
     clientId: 0a7ca146321bc1d63285c916ab12134c
     accessTokenUri: https://kauth.kakao.com/oauth/token
     userAuthorizationUri: https://kauth.kakao.com/oauth/authorize
-    resource:
-      userInfoUri: https://kapi.kakao.com/v1/user/me
+  resource:
+    userInfoUri: https://kapi.kakao.com/v1/user/me

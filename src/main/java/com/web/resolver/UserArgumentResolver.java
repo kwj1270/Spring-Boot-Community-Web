@@ -76,8 +76,8 @@ public class UserArgumentResolver implements HandlerMethodArgumentResolver {
 
     private User convertUser(String authority, Map<String, String> map) {
         if (FACEBOOK.isEquals(authority)) return getModernUser(FACEBOOK, map);
-        if (GOOGLE.isEquals(authority)) return getModernUser(GOOGLE, map);
-        if (KAKAO.isEquals(authority)) return getKakaoUser(map);
+        else if (GOOGLE.isEquals(authority)) return getModernUser(GOOGLE, map);
+        else if(KAKAO.isEquals(authority)) return getKaKaoUser(map);
         return null;
     }
 
@@ -91,12 +91,11 @@ public class UserArgumentResolver implements HandlerMethodArgumentResolver {
                 .build();
     }
 
-    private User getKakaoUser(Map<String, String> map) {
-        HashMap<String, String> propertyMap = (HashMap<String, String>) (Object) map.get("properties");
-
+    private User getKaKaoUser(Map<String, String> map) {
+        HashMap<String, String> propertyMap = (HashMap<String, String>)(Object)map.get("properties");
         return User.builder()
                 .name(propertyMap.get("nickname"))
-                .email(map.get("kaccount_email"))
+                .email(String.valueOf(map.get("kaccount_email")))
                 .principal(String.valueOf(map.get("id")))
                 .socialType(KAKAO)
                 .createdDate(LocalDateTime.now())
@@ -109,6 +108,4 @@ public class UserArgumentResolver implements HandlerMethodArgumentResolver {
                     map, "N/A", AuthorityUtils.createAuthorityList(user.getSocialType().getRoleType())));
         }
     }
-
-
 }

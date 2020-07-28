@@ -17,6 +17,7 @@ import org.springframework.security.oauth2.client.filter.OAuth2ClientAuthenticat
 import org.springframework.security.oauth2.client.filter.OAuth2ClientContextFilter;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableOAuth2Client;
 import org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint;
+import org.springframework.security.web.authentication.www.BasicAuthenticationFilter;
 import org.springframework.security.web.csrf.CsrfFilter;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.filter.CompositeFilter;
@@ -43,30 +44,29 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         http
                 .authorizeRequests()
-                .antMatchers("/", "/login/**", "/css/**", "/images/**",
-                        "/js/**", "/console/**").permitAll() // 위 url들은 모두 사용 허가
-                .antMatchers("/facebook").hasAuthority(FACEBOOK.getRoleType())
-                .antMatchers("/google").hasAuthority(GOOGLE.getRoleType())
-                .antMatchers("/kakao").hasAuthority(KAKAO.getRoleType())
-                .anyRequest().authenticated()
+                    .antMatchers("/", "/oauth2/**", "/login/**", "/css/**", "/images/**", "/js/**", "/console/**").permitAll()
+                    .antMatchers("/facebook").hasAuthority(FACEBOOK.getRoleType())
+                    .antMatchers("/google").hasAuthority(GOOGLE.getRoleType())
+                    .antMatchers("/kakao").hasAuthority(KAKAO.getRoleType())
+                    .anyRequest().authenticated()
                 .and()
-                .headers().frameOptions().disable()
+                    .headers().frameOptions().disable()
                 .and()
-                .exceptionHandling()
-                .authenticationEntryPoint(new LoginUrlAuthenticationEntryPoint("/login"))
+                    .exceptionHandling()
+                    .authenticationEntryPoint(new LoginUrlAuthenticationEntryPoint("/login"))
                 .and()
-                .formLogin()
-                .successForwardUrl("/board/list")
+                    .formLogin()
+                    .successForwardUrl("/board/list")
                 .and()
-                .logout()
-                .logoutUrl("/logout")
-                .logoutSuccessUrl("/")
-                .deleteCookies("JSESSIONID")
-                .invalidateHttpSession(true)
+                    .logout()
+                    .logoutUrl("/logout")
+                    .logoutSuccessUrl("/")
+                    .deleteCookies("JSESSIONID")
+                    .invalidateHttpSession(true)
                 .and()
-                .addFilterBefore(filter, CsrfFilter.class)
-                .addFilterBefore(oauth2Filter(), CsrfFilter.class)
-                .csrf().disable();
+                    .addFilterBefore(filter, CsrfFilter.class)
+                    .addFilterBefore(oauth2Filter(), BasicAuthenticationFilter.class)
+                    .csrf().disable();
     }
 
     @Bean
@@ -93,7 +93,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         filter.setRestTemplate(template);
         filter.setTokenServices(new UserTokenService(client, socialType));
         filter.setAuthenticationSuccessHandler((request, response, authentication)
-                -> response.sendRedirect("/" + socialType.getValue() + "/complete"));
+                -> {
+                      System.out.println(socialType.getValue());
+                     response.sendRedirect("/" + socialType.getValue() + "/complete");
+            }
+        );
         filter.setAuthenticationFailureHandler((request, response, exception)
                 -> response.sendRedirect("/error"));
         return filter;
@@ -113,8 +117,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Bean
     @ConfigurationProperties("kakao")
-    public ClientResources kakao() {
-        return new ClientResources();
-    }
+    public ClientResources kakao() { return new ClientResources(); }
 
 }
