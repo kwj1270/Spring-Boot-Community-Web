@@ -8,12 +8,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Spring-Boot-Community-Web.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Spring-Boot-Community-Web.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Spring-Boot-Community-Web.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Spring-Boot-Community-Web.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/web/SpringBootCommunityWebApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/web/SpringBootCommunityWebApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/web/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/web/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/SpringBootCommunityWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/SpringBootCommunityWebApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/web/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/web/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/web/resolver/UserArgumentResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/web/resolver/UserArgumentResolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
@@ -49,11 +50,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="HTML File" />
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -218,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594637650374</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="스프링 부트 웹">
+      <created>1595939646414</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595939646414</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -258,10 +266,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="247" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1593661680387" />
-    <state x="158" y="34" key="CommitChangelistDialog2" timestamp="1594637649914">
+    <state x="158" y="34" key="CommitChangelistDialog2" timestamp="1595939645926">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="158" y="34" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1594637649914" />
+    <state x="158" y="34" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1595939645926" />
     <state x="524" y="354" key="Github.ShareDialog" timestamp="1594459977169">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -270,22 +278,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="302" y="162" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1594459902247" />
-    <state width="1398" height="289" key="GridCell.Tab.0.bottom" timestamp="1595939346104">
+    <state width="1398" height="228" key="GridCell.Tab.0.bottom" timestamp="1595991241417">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="289" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595939346104" />
-    <state width="1398" height="289" key="GridCell.Tab.0.center" timestamp="1595939346103">
+    <state width="1398" height="228" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595991241417" />
+    <state width="1398" height="228" key="GridCell.Tab.0.center" timestamp="1595991241415">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="289" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1595939346103" />
-    <state width="1398" height="289" key="GridCell.Tab.0.left" timestamp="1595939346102">
+    <state width="1398" height="228" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1595991241415" />
+    <state width="1398" height="228" key="GridCell.Tab.0.left" timestamp="1595991241415">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="289" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1595939346102" />
-    <state width="1398" height="289" key="GridCell.Tab.0.right" timestamp="1595939346103">
+    <state width="1398" height="228" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1595991241415" />
+    <state width="1398" height="228" key="GridCell.Tab.0.right" timestamp="1595991241416">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="289" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1595939346103" />
+    <state width="1398" height="228" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1595991241416" />
     <state x="303" y="177" key="RollbackChangesDialog" timestamp="1594547516015">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -294,13 +302,13 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="220" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1593661637915" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1594637654041">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1595939648990">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1594637654041" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1594459981905">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1595939648990" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1595999553236">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1594459981904" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1595999553236" />
   </component>
 </project>
